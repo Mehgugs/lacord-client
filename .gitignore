@@ -1,0 +1,6 @@
+spec/**
+.busted
+*.src.rock
+/rockspecs/**
+/test/**
+/docs/**
