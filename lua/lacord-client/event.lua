@@ -1,4 +1,4 @@
-local queue = require"moonlava.queue"
+local queue = require"lacord.x.queue"
 local cqueues = require"cqueues"
 local cond = require"cqueues.condition"
 local promise = require"cqueues.promise"
