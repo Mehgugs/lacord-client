@@ -8,7 +8,7 @@ local insert, ipairs = table.insert, ipairs
 local max = math.max
 --start-module--
 local _ENV = {}
-
+__name = "lacord.x.queue"
 --- Doubled ended queue.
 -- @table queue
 -- @within Objects

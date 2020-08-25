@@ -7,7 +7,7 @@ local setmetatable = setmetatable
 local _ENV = {}
 
 __index = _ENV
-__name = "timer"
+__name = "lacord.x.timer"
 
 function new(whence)
     return setmetatable({

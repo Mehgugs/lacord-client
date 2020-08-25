@@ -21,7 +21,7 @@ local ipairs = ipairs
 local _ENV = {}
 
 __index = _ENV
-__name = "moonlava.adapter"
+__name = "lacord.x.adapter"
 
 --- make wrapped coroutines report errors via a debug traceback
 local old_wrap do
@@ -103,7 +103,7 @@ end
 
 --- A little object to hold discord events.
 local context do
-    local ctx_meta = {__name = "moonlava.eventcontext"}
+    local ctx_meta = {__name = "lacord.x.eventcontext"}
     function ctx_meta:__index(k)
         if k == 'shard_id' then return get(self, 1)
         elseif k == 'event' then return get(self, 2)

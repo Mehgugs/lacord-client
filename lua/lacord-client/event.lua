@@ -12,7 +12,7 @@ local pairs = pairs
 local _ENV = {}
 
 __index = _ENV
-__name = "moonlava.emitter"
+__name = "lacord.x.emitter"
 
 local function running(em)
     return _running() or em.loop
